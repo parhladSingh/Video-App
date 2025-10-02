@@ -11,7 +11,7 @@ const App = () => {
     appId: '6d5fc6ba9666445cbfc189505fa8a5fd',
     channel: channelName,
     token: '007eJxTYFjoe/7yykdWVfpFks7B9ir/8mQMBLrNzvwOVdWQyFv6rkCBwSzFNC3ZLCnR0szMzMTENDkpLdnQwtLUwDQt0SLRNC0lyf9eRkMgI8Of760MjFAI4rMw5CZm5jEwAAD4/R8w',
-    role: userType === 'host' ? 'host' : 'audience', // Host = camera ON, Client = camera OFF
+    role: userType === 'host' ? 'host' : 'audience', 
     layout: 0,
     enableRTM: false,
     uid: 0,
@@ -234,7 +234,7 @@ const App = () => {
               onMouseOver={(e) => e.target.style.backgroundColor = '#0056b3'}
               onMouseOut={(e) => e.target.style.backgroundColor = '#007bff'}
             >
-              Join Call 🚀
+              Join Call 
             </button>
             
             <div style={{ 
